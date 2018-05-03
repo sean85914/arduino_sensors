@@ -1,5 +1,8 @@
 // Download the library here and include to your Arduino IDE
 // https://github.com/bogde/HX711
+// Edited by Sean
+// Read the data from HX711 and convert it to gram
+// Last update: 5/1, 2018
 
 #include "HX711.h"
 
@@ -11,6 +14,7 @@ double var; // Initial variance
 double mean; // Initial mean
 double raw; // Raw data
 char in; 
+
 // One-dimension Kalman filter
 double kalman(double measure, double last_mean, double last_var)
 {

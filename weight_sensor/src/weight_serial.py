@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 
+## Edited by Sean
+## Last update: 5/1
+## Wait for input in one second
+## If not input, then read the data from serial and publish it
+
 import rospy
 import serial
 import sys
@@ -18,6 +23,7 @@ if __name__ == '__main__':
 			if select.select([sys.stdin,], [], [], 1.0)[0]:
 				# Wait one second
 				x = sys.stdin.read(2)
+			# Serial write 'r' for reset
 				ard.write('r')
 			else:
 				while ard.inWaiting(): # To clear the buffer
