@@ -1,6 +1,6 @@
 # Use 5kG load cell and HX711 ADC to measure the weight
 ## Assemble your scale like this
-![](https://imgur.com/a/DhF9AOI)
+![image](https://imgur.com/a/DhF9AOI)
 ## Connect it up!
 ### Load cell <-> HX711
 Red <-> E+  
