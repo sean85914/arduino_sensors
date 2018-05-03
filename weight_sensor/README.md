@@ -1,6 +1,6 @@
 # Use 5kG load cell and HX711 ADC to measure the weight
 ## Assemble your scale like this
-![image](https://imgur.com/a/DhF9AOI)
+![](https://github.com/seanNCTU/arduino_sensors/blob/master/weight_sensor/img/scale.jpg)
 ## Connect it up!
 ### Load cell <-> HX711
 Red <-> E+  
