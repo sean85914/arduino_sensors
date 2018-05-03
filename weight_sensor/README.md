@@ -36,7 +36,7 @@ Put the object onto the scale, and devide the result by the known weight
 This is the value you should call set_scale() with  
 
 ## Filtering
-I use one-dimension Kalamn filter with no command term to filter my data  
+I use one-dimension Kalman filter with no command term to filter my data  
 Model:  
 State:   x_t = x_t-1 + noise noise~ N(0, r)  
 Measure: z_t = z_t-1 + noise noise~ N(0, q)  
